@@ -1,5 +1,7 @@
 package com.dylan.scala.datastruct
 
+import com.dylan.scala.classz.BankAccount
+
 object myMap{
   
 	
@@ -25,6 +27,15 @@ object myMap{
 			for((k,v)<- mutalescores){
 				println(k);
 			}
+			
+			
+		  var account = new BankAccount();
+		  
+		  println(account.deposit(2))
+		  println(account.withdraw(1))
+		  println(account.result)
+		  println(account.id)
+			
 	}
 	
   
