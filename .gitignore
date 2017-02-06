@@ -9,4 +9,4 @@
 gradlew
 gradlew.bat
 gradle
-.log
+.log/.cache-main
